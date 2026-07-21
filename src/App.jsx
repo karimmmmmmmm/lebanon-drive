@@ -600,7 +600,7 @@ function SignGraphic({ sign, size = 96 }) {
         className="grid place-items-center overflow-hidden rounded-xl bg-white"
       >
         <img
-          src={`${import.meta.env.BASE_URL}signs/sign${sign.id}.png`}
+          src={`${import.meta.env.BASE_URL}sign${sign.id}.png`}
           alt={sign.en}
           width={size}
           height={size}
